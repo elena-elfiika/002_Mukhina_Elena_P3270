@@ -2,32 +2,204 @@ body {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+  @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
   font-family: 'PT Sans', sans-serif;
 }
 
+h1{
+  text-align: center;
+  font-variant: small-caps;
+}
+/*header*/
+
 header{
-
+  background-color: #eee;
+  height: 80px;
+  padding-top: 20px;
 }
 
-nav{
-
+.logo_link{
+  margin-left: 50px;
+  margin-right: 10px;
+  display: inline-block;
 }
+
+.logo_link>img{
+  width: 150px;
+}
+
+.search_form{
+  vertical-align: top;
+  display: inline-block;
+  width: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.search_form>input{
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #fafafa;
+  font-family: 'PT Sans', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.userpic{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.userpic>img{
+  width: 50px;
+  height: 50px;
+}
+
+.cart{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.cart>img{
+  width: 50px;
+  height: 50px;
+}
+
+nav>ul{
+  text-align: center;
+}
+
+nav>ul>li{
+  display: inline-block;
+  padding: 10px;
+  height: 50px;
+}
+
+nav>ul>li>a:active, nav>ul>li>a:hover, nav>ul>li>a:visited{
+  display: block;
+  text-decoration: underline;
+  color: #00aa00;
+}
+
+/*index*/
 
 .main_sales{
-
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .main_promo{
+  width: 600px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  background-color: #33ee88;
+}
 
+.main_sales>h2{
+  text-align: center;
 }
 
 .new_sales{
+  text-align: center;
+}
 
+.item_sale{
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px;
+  height: 250px;
+  background-color: #ddd;
+  border: 1px solid;
+  border-color: #aaa;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+.item_sale>img{
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+.item_sale>p, .item_sale>a{
+  text-align: right;
+}
+
+.calalog_link{
+  text-align: center;
+  display: block;
+  text-decoration: underline;
+  color: #000055;
+  width: 100px;
+  height: 35px;
+  border: 1px solid;
+  border-color: #aaa;
+  border-radius: 5px;
+  padding-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+/*catalog*/
+
+.side_menu{
+  display: inline-block;
+  width: 29%;
+  vertical-align: top;
+}
+
+.sale_positions_block{
+  display: inline-block;
+  width: 69%;
+}
+/*footer*/
+
+footer{
+  background-color: #eee;
+  padding: 10px;
 }
 
 .e_mail_sending{
+  text-align: center;
+}
 
+#e_mail_subscribe{
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #fafafa;
+  font-family: 'PT Sans', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  margim-right: 5px;
+}
+
+#e_mail_subscribe_button{
+  height: 30px;
+  border-radius: 5px;
+  background-color: #fafafa;
+  font-family: 'PT Sans', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  margim-right: 5px;
 }
 
 .bottom_nav{
@@ -35,5 +207,5 @@ nav{
 }
 
 .social_media{
-
+  text-align: center;
 }
