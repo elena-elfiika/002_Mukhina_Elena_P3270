@@ -127,6 +127,7 @@ nav>ul>li>a:active, nav>ul>li>a:hover, nav>ul>li>a:visited{
   padding-right: 25px;
   padding-top: 25px;
   padding-bottom: 40px;
+  text-overflow: ellipsis;
 }
 
 .item_sale>img{
@@ -162,12 +163,89 @@ nav>ul>li>a:active, nav>ul>li>a:hover, nav>ul>li>a:visited{
   display: inline-block;
   width: 29%;
   vertical-align: top;
+  margin-bottom: 24px;
+}
+
+.side_menu>ul{
+  list-style: none outside;
+}
+
+.side_menu>ul>li>ul>li:hover{
+  text-decoration: underline;
+}
+
+.side_menu>ul>li>ul{
+  list-style: none outside;
 }
 
 .sale_positions_block{
   display: inline-block;
   width: 69%;
+  margin-bottom: 24px;
 }
+
+.sale_positions_sort{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.sale_positions{
+  display:  flex;
+  flex-direction: row;
+}
+
+.item_sale_cat{
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px;
+  height: 250px;
+  background-color: #ddd;
+  border: 1px solid;
+  border-color: #aaa;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 24px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 40px;
+  text-overflow: ellipsis;
+}
+
+.item_sale_cat>img{
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+.item_sale_cat>p, .item_sale_cat>a{
+  text-align: right;
+}
+
+/*Job, contacts and about*/
+
+.Vacancies_text, .About_text, .contacts_links{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.Vacancies_text>p, .About_text>p, .contacts_links>p{
+  font-size: 16px;
+  margin-bottom: 28px;
+  text-indent: 1.5em;
+}
+
+.email_cont, .adress{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 14px;
+  background-color: lightgrey;
+  font-size: 14px;
+  margin-bottom: 28px;
+}
+
 /*footer*/
 
 footer{
@@ -203,9 +281,34 @@ footer{
 }
 
 .bottom_nav{
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
 
+.bottom_nav>a, .bottom_nav>a:active, .bottom_nav>a:hover, .bottom_nav>a:visited{
+    vertical-align: middle;
+    color: black;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .social_media{
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+}
+
+.social_media>img{
+  width: 25px;
+  height: 25px;
+  background-color: lightgrey;
+}
+
+.bottom_logo{
+  display: inline-block;
   text-align: center;
 }
